@@ -4,9 +4,9 @@ game.Players.PlayerAdded:Connect(function(plr)
 	leaderstats.Parent = plr
 	leaderstats.Name = "leaderstats"
 	
-	local Cash = Instance.new("IntValue")
+	local x = Instance.new("IntValue")
 	Cash.Parent = leaderstats
-	Cash.Name = "Cash"
-	Cash.Value = 0
+	Cash.Name = "x"
+	Cash.Value = x
 	
 end)
